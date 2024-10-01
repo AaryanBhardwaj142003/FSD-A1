@@ -1,0 +1,23 @@
+.fitems {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: chartreuse;
+    border-width: 10px;
+    border-style: double;
+}
+
+.fcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+.item1{
+    order: -2;
+}
