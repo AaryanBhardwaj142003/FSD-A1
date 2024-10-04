@@ -1,23 +1,66 @@
-.fitems {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    background-color: red;
-    color: white;
-    font-size: 20px;
-    border-radius: 10px;
-    border-color: chartreuse;
-    border-width: 10px;
-    border-style: double;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-.fcontainer {
+#mydiv{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+#header{
+    display: flex;
+    width: 100vw;
+    background-color:#ffffff;
     justify-content: center;
-
+    gap: 20px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    /* padding-left: 10px;
+    padding-right:10px */
+}
+.logo{
+    height: 15px;
+    width: 15px;
+}
+#header .logo{
+    color:violet;
+    margin-left: 20px;
+}
+#header .menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#header .nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
 }
 
-.item1{
-    order: -2;
+.nav-item{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.login,.signup{
+    width: Hug(104px)px;
+    height: Hug(48px)px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 3px;
+    border-radius: 10px ;
+    border: 1px solid grey;
 }
